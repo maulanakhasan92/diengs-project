@@ -14,7 +14,7 @@ export default function Login() {
       <p className="text-center text-sm mb-3">atau</p>
       <LoginGoogle />
       <p className="mt-8 text-sm text-center">
-        Belum punya akun?
+        Belum punya akun ?
         <Link href="/register">
           <span className="text-biru hover:text-hitam"> Daftar</span>
         </Link>
