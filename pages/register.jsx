@@ -11,7 +11,7 @@ export default function Register() {
         <input className="ring-1 ring-abu p-2 w-full rounded-md mb-3 text-sm" type="Email" name="" id="email" placeholder="Email" />
         <input className="ring-1 ring-abu p-2 w-full rounded-md mb-3 text-sm" type="password" name="" id="email" placeholder="Password" />
         <input className="ring-1 ring-abu p-2 w-full rounded-md mb-3 text-sm" type="password" name="" id="email" placeholder="Konfirmasi Password" />
-        <button className="w-full p-2 bg-biru rounded-md mb-3 text-abu hover:shadow-sm hover:shadow-biru transition-all" type="submit">Daftar</button>
+        <button className="w-full p-2 bg-biru rounded-md mb-3 text-putih hover:shadow-sm hover:shadow-biru transition-all" type="submit">Daftar</button>
       </form>
       <p className="text-center text-sm mb-3">atau</p>
       <LoginGoogle />
