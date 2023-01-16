@@ -13,6 +13,8 @@ module.exports = {
       kuning: '#FCB712',
       hitam: '#000000',
       abu: '#D9D9D9',
+      putih: '#FFFFFF',
+      biru2: '#1976D2',
     },
     extend: {
       fontFamily: {
