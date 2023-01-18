@@ -13,7 +13,7 @@ export default function Document() {
           rel="stylesheet"
         />
       </Head>
-      <body className="font-Vietnam container m-auto w-96">
+      <body className="font-Vietnam m-auto w-full no-scrollbar">
         <Main />
         <NextScript />
       </body>

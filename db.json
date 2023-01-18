@@ -1,0 +1,26 @@
+{
+  "homestays": [
+    {
+      "status": "success",
+      "message": "notes retrieved",
+      "data": [
+        {
+            "id": 1,
+            "title": "Welcome to Notes, Dimas!",
+            "body": "Welcome to Notes! This is your first note. You can archive it, delete it, or create new ones.",
+            "createdAt": "2022-07-28T10:03:12.594Z",
+            "archived": false,
+            "owner": "user-l-wposXQYGosf0ZA"
+        },
+        {
+            "id": 2,
+            "title": "Welcome to Notes, Dimas!",
+            "body": "Welcome to Notes! This is your first note. You can archive it, delete it, or create new ones.",
+            "createdAt": "2022-07-28T10:03:12.594Z",
+            "archived": false,
+            "owner": "user-l-wposXQYGosf0ZA"
+        }
+      ]
+    }
+  ]
+}
