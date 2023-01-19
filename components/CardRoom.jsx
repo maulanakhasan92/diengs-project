@@ -41,7 +41,7 @@ export default function CardRoom() {
           <i>/malam</i>
         </p>
       </div>
-      <div className="bg-biru mt-1 p-1.5 rounded-lg">
+      <div className="bg-biru mt-1 p-2 rounded-lg">
         <p className="text-center text-putih text-xs font-medium">Ajukan Sewa</p>
       </div>
     </div>
