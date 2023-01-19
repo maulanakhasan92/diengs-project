@@ -1,10 +1,14 @@
 import {
-  HiHome, HiOutlineBookmark, HiOutlineCalendar, HiOutlineBell, HiOutlineUser,
+  HiHome,
+  HiOutlineBookmark,
+  HiOutlineCalendar,
+  HiOutlineBell,
+  HiOutlineUser,
 } from 'react-icons/hi';
 
 export default function BottomNav() {
   return (
-    <nav className="p-3 bg-putih flex justify-between sticky bottom-0 w-full">
+    <nav className="sticky bottom-0 flex w-full justify-between bg-putih p-3 lg:hidden">
       <div className="text-center">
         <div className="flex justify-center">
           <HiHome size={22} color="#264C86" />
@@ -33,7 +37,7 @@ export default function BottomNav() {
         <div className="flex justify-center">
           <HiOutlineUser size={22} />
         </div>
-        <p className="text-xs">Akun</p>
+        <p className="text-xs">Profile</p>
       </div>
     </nav>
   );
