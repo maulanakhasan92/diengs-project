@@ -3,7 +3,7 @@ import {
   HiOutlineBookmark,
   HiOutlineCalendar,
   HiOutlineBell,
-  HiOutlineUser
+  HiOutlineUser,
 } from 'react-icons/hi';
 
 export default function TopNav() {

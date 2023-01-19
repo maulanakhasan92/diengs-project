@@ -35,7 +35,8 @@ export default function Register() {
         />
         <button
           className="mb-3 w-full rounded-md bg-biru p-2 text-putih transition-all hover:shadow-sm hover:shadow-biru"
-          type="submit">
+          type="submit"
+        >
           Daftar
         </button>
       </form>
