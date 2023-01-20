@@ -8,7 +8,7 @@ export default function CardRoom() {
       </div>
       <p className="font-semibold mt-2">Bintang Standart Room</p>
       <p className="text-xs font-normal">2 bed • max 4 tamu per kamar</p>
-      <div className="grid grid-cols-4 pr-5 my-1">
+      <div className="grid grid-cols-4 pr-5 mt-1">
         <div className="flex flex-row my-1">
           <div className="justify-center px-1">
             <BsWifi size={15} color="#264C86" />
@@ -33,13 +33,11 @@ export default function CardRoom() {
           </div>
           <p className="text-xs font-light text-biru text-center px-1">Wifi</p>
         </div>
-        <p className="text-xs font-light text-biru text-center px-1">Semua fasilitas..</p>
       </div>
-      <div>
-        <p>
-          Rp. 350.000
-          <i>/malam</i>
-        </p>
+      <p className="text-xs font-light text-biru text-left underline px-1 mb-1">Semua fasilitas..</p>
+      <div className="flex">
+        <p className="font-bold text-biru">Rp. 350.000</p>
+        <p className="text-sm pt-0.5">/malam</p>
       </div>
       <div className="bg-biru mt-1 p-2 rounded-lg">
         <p className="text-center text-putih text-xs font-medium">Ajukan Sewa</p>

@@ -16,7 +16,6 @@ module.exports = {
       abu2: '#526179',
       putih: '#FFFFFF',
       biru2: '#1976D2',
-      abu2: '#526179',
     },
     extend: {
       fontFamily: {

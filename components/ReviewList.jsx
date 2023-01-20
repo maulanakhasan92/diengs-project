@@ -3,7 +3,7 @@ import Review from './Review';
 
 export default function ReviewList() {
   return (
-    <section className="mx-3 my-5">
+    <section className="relative z-10 bg-putih px-3 pt-8">
       <div className="flex justify-between my-4">
         <h3 className="text-md font-bold">Ulasan</h3>
         <p className="text-xs font-medium text-biru">Lihat Semua</p>
@@ -16,7 +16,7 @@ export default function ReviewList() {
         </div>
         <p className="bg-abu rounded-md my-1 p-1 px-3 font-normal text-xs">Sangat Bagus</p>
       </div>
-      <div className="my-4 divide-y divide-slate-50">
+      <div className="my-4 divide-y divide-abu">
         <Review />
         <Review />
         <Review />
