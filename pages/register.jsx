@@ -3,19 +3,46 @@ import LoginGoogle from '../components/LoginGoogle';
 
 export default function Register() {
   return (
-    <section className="container m-auto w-96 mt-10 rounded-md p-6">
-      <img src="./signUp.svg" alt="ilustrasi login" className="mb-8 w-[150px] mx-auto" />
-      <h2 className="text-center text-md font-bold text-biru mb-8">Daftar</h2>
+    <section className="container m-auto mt-10 w-96 rounded-md p-6">
+      <img src="./signUp.svg" alt="ilustrasi login" className="mx-auto mb-8 w-[150px]" />
+      <h2 className="text-md mb-8 text-center font-bold text-biru">Daftar</h2>
       <form action="">
-        <input className="ring-1 ring-abu p-2 w-full rounded-md mb-3 text-sm" type="text" placeholder="Nama" />
-        <input className="ring-1 ring-abu p-2 w-full rounded-md mb-3 text-sm" type="Email" name="" id="email" placeholder="Email" />
-        <input className="ring-1 ring-abu p-2 w-full rounded-md mb-3 text-sm" type="password" name="" id="email" placeholder="Password" />
-        <input className="ring-1 ring-abu p-2 w-full rounded-md mb-3 text-sm" type="password" name="" id="email" placeholder="Konfirmasi Password" />
-        <button className="w-full p-2 bg-biru rounded-md mb-3 text-putih hover:shadow-sm hover:shadow-biru transition-all" type="submit">Daftar</button>
+        <input
+          className="mb-3 w-full rounded-md p-2 text-sm ring-1 ring-abu"
+          type="text"
+          placeholder="Nama"
+        />
+        <input
+          className="mb-3 w-full rounded-md p-2 text-sm ring-1 ring-abu"
+          type="Email"
+          name=""
+          id="email"
+          placeholder="Email"
+        />
+        <input
+          className="mb-3 w-full rounded-md p-2 text-sm ring-1 ring-abu"
+          type="password"
+          name=""
+          id="email"
+          placeholder="Password"
+        />
+        <input
+          className="mb-3 w-full rounded-md p-2 text-sm ring-1 ring-abu"
+          type="password"
+          name=""
+          id="email"
+          placeholder="Konfirmasi Password"
+        />
+        <button
+          className="mb-3 w-full rounded-md bg-biru p-2 text-putih transition-all hover:shadow-sm hover:shadow-biru"
+          type="submit"
+        >
+          Daftar
+        </button>
       </form>
-      <p className="text-center text-sm mb-3">atau</p>
+      <p className="mb-3 text-center text-sm">atau</p>
       <LoginGoogle />
-      <p className="mt-8 text-sm text-center">
+      <p className="mt-8 text-center text-sm">
         Sudah punya akun?
         <Link href="/login">
           <span className="text-biru hover:text-hitam"> Masuk</span>
