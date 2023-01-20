@@ -11,7 +11,7 @@ import SelectRoomNav from '../components/SelectRoomNav';
 
 export default function DetailPage() {
   return (
-    <div className="contine">
+    <div className="contine lg:max-w-5xl mx-auto">
       <Navigation />
       <section className="relative z-20">
         <div className="h-80 w-full bg-[url('https://images.unsplash.com/photo-1560170412-0f7df0eb0fb1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2048&q=80')] bg-cover" />
@@ -41,13 +41,13 @@ export default function DetailPage() {
           Lorem ipsum dolor sit amet consectetur. Ipsum hac accumsan congue faucibus nibh. Viverra venenatis duis massa aliquam. Elit tellus magna quam molestie. Aliquam mauris ipsum eget sit.Lorem ipsum dolor sit amet consectetur. Ipsum hac accumsan congue faucibus nibh.
         </p>
       </section>
+      <SelectRoomNav />
       <Facility />
       <section className="px-3 py-5 pt-8">
         <h3 className="text-md mb-4 font-bold">Lokasi</h3>
         <iframe className="w-full rounded-lg" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.064625276419!2d109.90771869678953!3d-7.233469599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e700da120c1333d%3A0xbfaa9d1832340de9!2sVila%20tugu%20langit!5e0!3m2!1sid!2sid!4v1668151351280!5m2!1sid!2sid" />
       </section>
       <Destination />
-      <SelectRoomNav />
       <RoomList />
       <ReviewList />
     </div>
