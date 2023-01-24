@@ -1,6 +1,18 @@
 import { HiStar } from 'react-icons/hi';
 
 export default function Review() {
+  const rating = 3;
+
+  const colorRating = [];
+  // eslint-disable-next-line no-plusplus
+  for (let i = 0; i < 5; i++) {
+    if (i < rating) {
+      colorRating[i] = '#FFC700';
+    } else {
+      colorRating[i] = '#A1ADC0';
+    }
+  }
+
   return (
     <div className="py-4">
       <div className="mb-2 flex">
@@ -9,7 +21,12 @@ export default function Review() {
           <p className="text-sm font-semibold">Ahmad Rifai</p>
           <p className="text-xs text-abu2">20 Jan 2023</p>
         </div>
-        <div>
+        {colorRating.map((element) => (
+          <div>
+            <HiStar color={element} size={20} />
+          </div>
+        ))}
+        {/* <div>
           <HiStar color="#FFC700" size={20} />
         </div>
         <div>
@@ -23,7 +40,7 @@ export default function Review() {
         </div>
         <div>
           <HiStar color="#A1ADC0" size={20} />
-        </div>
+        </div> */}
       </div>
       <p className="text-sm font-normal">Lorem ipsum dolor sit amet consectetur. Ac quis donec ut nisi iaculis donec aliquam ullamcorper feugiat. Nulla ullamcorper libero blandit nunc in ut. </p>
       <div className="flex gap-2 mt-3">
