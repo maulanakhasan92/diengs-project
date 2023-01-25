@@ -2,51 +2,45 @@ import { BsWifi, BsTv } from 'react-icons/bs';
 
 export default function CardRoom() {
   return (
-    <div className="mb-2 mr-2 w-64 min-w-[25%] snap-center rounded-lg p-3 shadow-md">
-      <div className="aspect-w-1 aspect-h-1 bg-gray-200 lg:aspect-none w-full overflow-hidden rounded-md group-hover:opacity-75 lg:h-80">
-        <img
-          src="https://images.unsplash.com/photo-1560448205-4d9b3e6bb6db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-          alt=""
-          className="h-full w-full object-cover object-center lg:h-full lg:w-full"
-        />
+    <div className="min-w-[80%] lg:min-w-[30%] mb-2 mr-2 w-64 p-3 rounded-lg shadow-md snap-center">
+      <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none">
+        <img src="https://images.unsplash.com/photo-1560448205-4d9b3e6bb6db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="" className="h-full w-full object-cover object-center lg:h-full lg:w-full" />
       </div>
-      <p className="mt-2 font-semibold">Bintang Standart Room</p>
+      <p className="font-semibold mt-2">Bintang Standart Room</p>
       <p className="text-xs font-normal">2 bed • max 4 tamu per kamar</p>
-      <div className="my-1 grid grid-cols-4 pr-5">
-        <div className="my-1 flex flex-row">
+      <div className="grid grid-cols-4 pr-5 mt-1 lg:mt-4">
+        <div className="flex flex-row my-1">
           <div className="justify-center px-1">
             <BsWifi size={15} color="#264C86" />
           </div>
-          <p className="pl-1 text-center text-xs font-light text-biru">Wifi</p>
+          <p className="text-xs font-light text-biru text-center pl-1">Wifi</p>
         </div>
-        <div className="my-1 flex flex-row">
+        <div className="flex flex-row my-1">
           <div className="justify-center px-1">
             <BsTv size={15} color="#264C86" />
           </div>
-          <p className="px-1 text-center text-xs font-light text-biru">TV</p>
+          <p className="text-xs font-light text-biru text-center px-1">TV</p>
         </div>
-        <div className="my-1 flex flex-row">
+        <div className="flex flex-row my-1">
           <div className="justify-center px-1">
             <BsWifi size={15} color="#264C86" />
           </div>
-          <p className="px-1 text-center text-xs font-light text-biru">Kopi</p>
+          <p className="text-xs font-light text-biru text-center px-1">Kopi</p>
         </div>
-        <div className="my-1 flex flex-row">
+        <div className="flex flex-row my-1">
           <div className="justify-center px-1">
             <BsWifi size={15} color="#264C86" />
           </div>
-          <p className="px-1 text-center text-xs font-light text-biru">Wifi</p>
+          <p className="text-xs font-light text-biru text-center px-1">Wifi</p>
         </div>
-        <p className="px-1 text-center text-xs font-light text-biru">Semua fasilitas..</p>
       </div>
-      <div>
-        <p>
-          Rp. 350.000
-          <i>/malam</i>
-        </p>
+      <p className="text-xs font-light text-biru text-left underline px-1 mb-1 lg:mb-4">Semua fasilitas..</p>
+      <div className="flex">
+        <p className="font-bold text-biru">Rp. 350.000</p>
+        <p className="text-sm pt-0.5">/malam</p>
       </div>
-      <div className="mt-1 rounded-lg bg-biru p-1.5">
-        <p className="text-center text-xs font-medium text-putih">Ajukan Sewa</p>
+      <div className="bg-biru mt-1 p-2 rounded-lg">
+        <p className="text-center text-putih text-xs font-medium">Ajukan Sewa</p>
       </div>
     </div>
   );
