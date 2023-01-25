@@ -2,7 +2,7 @@ import { BsWifi, BsTv } from 'react-icons/bs';
 
 export default function CardRoom() {
   return (
-    <div className="mb-2 mr-2 w-64 min-w-[80%] snap-center rounded-lg p-3 shadow-md">
+    <div className="mb-2 mr-2 w-64 min-w-[25%] snap-center rounded-lg p-3 shadow-md">
       <div className="aspect-w-1 aspect-h-1 bg-gray-200 lg:aspect-none w-full overflow-hidden rounded-md group-hover:opacity-75 lg:h-80">
         <img
           src="https://images.unsplash.com/photo-1560448205-4d9b3e6bb6db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"

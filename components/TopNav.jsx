@@ -8,7 +8,7 @@ import {
 
 export default function TopNav() {
   return (
-    <nav className="sticky top-0 w-full bg-gradient-to-r from-biru to-biru2 p-3">
+    <nav className="sticky top-0 w-full bg-gradient-to-r from-biru to-biru2 p-3 relative z-10">
       <div className="mx-auto flex max-w-7xl justify-between">
         <h1 className="my-auto w-1/4 text-xl font-semibold text-putih">Diengs.id</h1>
         <input
