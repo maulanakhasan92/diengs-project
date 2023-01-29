@@ -1,8 +1,9 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import {
-  HiStar, HiLocationMarker,
+  HiStar, HiLocationMarker, HiOutlineBookmark
 } from 'react-icons/hi';
 import Navigation from '../components/Navigation';
+import HotelImageHeader from '../components/HotelImageHeader';
 import Facility from '../components/Facility';
 import Destination from '../components/Destination';
 import RoomList from '../components/RoomList';
@@ -13,9 +14,6 @@ import TopNav from '../components/TopNav';
 import Rules from '../components/Rules';
 
 export default function DetailPage() {
-  const seeImage = () => {
-    document.querySelector('#imageCard').classList.remove('hidden');
-  };
   return (
     <div>
       <div className="hidden lg:block">
@@ -24,16 +22,17 @@ export default function DetailPage() {
       <div className="contine lg:max-w-6xl mx-auto">
         <Navigation />
         <ImageCard />
-        <section className="relative z-20">
-          <div onClick={seeImage} className="h-80 lg:h-96 w-full bg-[url('https://images.unsplash.com/photo-1560170412-0f7df0eb0fb1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2048&q=80')] bg-cover cursor-pointer" />
-          <div className="absolute bottom-0 right-0 left-0 flex justify-center gap-2 pt-5 bg-gradient-to-t from-putih to-transparent">
-            <div onClick={seeImage} className="w-20 h-14 lg:w-40 lg:h-24 rounded-lg bg-[url('https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80')] bg-cover cursor-pointer" />
-            <div onClick={seeImage} className="w-20 h-14 lg:w-40 lg:h-24 rounded-lg bg-[url('https://images.unsplash.com/photo-1560170412-0f7df0eb0fb1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2048&q=80')] bg-cover cursor-pointer" />
-            <div onClick={seeImage} className="w-20 h-14 lg:w-40 lg:h-24 rounded-lg bg-[url('https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80')] bg-cover cursor-pointer" />
-          </div>
-        </section>
+        <HotelImageHeader />
         <section className="mx-3 pb-6">
-          <h2 className="mt-5 text-xl font-bold">Homestay Langit Senja</h2>
+          <div className="mt-5 flex justify-between">
+            <h2 className="text-2xl font-bold">Homestay Langit Senja</h2>
+            <div className="hidden lg:flex border-0 px-4 py-1 rounded-lg bg-kuning">
+              <div className="pacity-90 pt-0.5 mr-1">
+                <HiOutlineBookmark size={18} color="#FFFFFF" />
+              </div>
+              <p className="text-sm text-putih font-semibold">Favorit</p>
+            </div>
+          </div>
           <div className="flex my-1">
             <div className="inline-flex">
               <div className="inline-flex">

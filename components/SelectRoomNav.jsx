@@ -1,6 +1,6 @@
 export default function SelectRoomNav() {
   return (
-    <div className="fixed bottom-0 left-0 right-0 p-3 pb-5 bg-putih flex justify-between lg:max-w-5xl mx-auto">
+    <div className="fixed bottom-0 left-0 right-0 p-3 pb-5 bg-putih flex justify-between lg:max-w-6xl mx-auto">
       <div className="grow">
         <p className="text-xs text-abu2">Harga Mulai</p>
         <div className="flex">

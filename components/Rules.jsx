@@ -4,15 +4,15 @@ export default function Rules() {
   return (
     <section className="mx-3">
       <h3 className="text-md font-bold pb-4 pt-8">Ketentuan</h3>
-      <div className="flex gap-4 justify-between px-8 py-4 border border-abu2 rounded-md">
-        <div className="text-center">
+      <div className="flex justify-between px-8 py-4 border border-abu2 rounded-md">
+        <div className="text-center mx-auto">
           <p className="font-sm">Check-in</p>
           <p className="text-xs font-light text-abu2">Mulai 14.00 WIB</p>
         </div>
-        <div className="py-2">
+        <div className="py-2 mx-auto">
           <HiOutlineKey size={25} />
         </div>
-        <div className="text-center">
+        <div className="text-center mx-auto">
           <p className="font-sm">Check-out</p>
           <p className="text-xs font-light text-abu2">Sebelum 12.00 WIB</p>
         </div>
