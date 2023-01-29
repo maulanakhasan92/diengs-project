@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import {
-  HiStar, HiLocationMarker, HiOutlineBookmark
+  HiStar, HiLocationMarker, HiOutlineBookmark,
 } from 'react-icons/hi';
 import Navigation from '../components/Navigation';
 import HotelImageHeader from '../components/HotelImageHeader';
@@ -25,7 +25,7 @@ export default function DetailPage() {
         <HotelImageHeader />
         <section className="mx-3 pb-6">
           <div className="mt-5 flex justify-between">
-            <h2 className="text-2xl font-bold">Homestay Langit Senja</h2>
+            <h2 className="text-xl font-bold">Homestay Langit Senja</h2>
             <div className="hidden lg:flex border-0 px-4 py-1 rounded-lg bg-kuning">
               <div className="pacity-90 pt-0.5 mr-1">
                 <HiOutlineBookmark size={18} color="#FFFFFF" />

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { BsWifi, BsTv } from 'react-icons/bs';
 
 export default function CardRoom() {
@@ -39,9 +40,11 @@ export default function CardRoom() {
         <p className="font-bold text-biru">Rp. 350.000</p>
         <p className="text-sm pt-0.5">/malam</p>
       </div>
-      <div className="bg-biru mt-1 p-2 rounded-lg">
-        <p className="text-center text-putih text-xs font-medium">Ajukan Sewa</p>
-      </div>
+      <Link href="ApplyForRentPage">
+        <div className="bg-biru mt-1 p-2 rounded-lg">
+          <p className="text-center text-putih text-xs font-medium">Ajukan Sewa</p>
+        </div>
+      </Link>
     </div>
   );
 }
