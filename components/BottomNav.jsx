@@ -8,7 +8,7 @@ import {
 
 export default function BottomNav() {
   return (
-    <nav className="sticky bottom-0 flex w-full justify-between bg-putih p-3 lg:hidden">
+    <nav className="fixed bottom-0 flex w-full justify-between bg-putih p-3 lg:hidden">
       <div className="text-center">
         <div className="flex justify-center">
           <HiHome size={22} color="#264C86" />
