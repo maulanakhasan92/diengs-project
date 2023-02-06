@@ -3,7 +3,7 @@ import { HiOutlineKey, HiOutlineExclamationCircle } from 'react-icons/hi';
 export default function Rules() {
   return (
     <section className="mx-3">
-      <h3 className="text-md font-bold pb-4 pt-8">Ketentuan</h3>
+      <h3 className="text-md font-bold pb-4 pt-8 lg:text-xl">Ketentuan</h3>
       <div className="flex justify-between px-8 py-4 border border-abu2 rounded-md">
         <div className="text-center mx-auto">
           <p className="font-sm">Check-in</p>
