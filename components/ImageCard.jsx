@@ -1,6 +1,5 @@
 import { useState } from 'react';
-import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
-import { HiChevronLeft, HiChevronRight, HiX } from "react-icons/hi";
+import { HiChevronLeft, HiChevronRight, HiX } from 'react-icons/hi';
 import { RxDotFilled } from 'react-icons/rx';
 
 export default function ImageCard() {
@@ -48,7 +47,13 @@ export default function ImageCard() {
     <div id="imageCard" className="hidden fixed z-30 bg-putih top-0 left-0 right-0 h-full w-full m-auto pb-16 pt-4 px-4 lg:px-20 group">
       <div className="flex justify-end">
         <p className="text-center text-lg font-semibold mb-4 grow">Homestay Langit Senja</p>
-        <div onClick={closeImage} className="cursor-pointer">
+        <div
+          onClick={closeImage}
+          onKeyPress={closeImage}
+          role="button"
+          tabIndex="0"
+          className="cursor-pointer"
+        >
           <HiX size={30} />
         </div>
       </div>
@@ -67,8 +72,12 @@ export default function ImageCard() {
       <div className="flex top-4 justify-center py-2">
         {slides.map((slide, slideIndex) => (
           <div
+            // eslint-disable-next-line react/no-array-index-key
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}
+            onKeyPress={() => goToSlide(slideIndex)}
+            role="button"
+            tabIndex="0"
             className="text-2xl cursor-pointer"
           >
             <RxDotFilled />
