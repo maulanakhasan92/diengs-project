@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Header from '../components/Header';
 import DatePicker from '../components/DatePicker';
 import NumberOfGuest from '../components/NumberOfGuest';
@@ -40,9 +41,11 @@ export default function ApplyForRentPage() {
           <p className="text-xs text-abu2">Total Harga</p>
           <p className="font-bold text-biru">Rp. 700.000</p>
         </div>
-        <a href="#kamar" className="bg-biru rounded-lg my-0 py-2.5 px-10">
-          <p className="text-putih text-sm">Ajukan Sewa</p>
-        </a>
+        <Link href="OrderPage">
+          <div className="bg-biru rounded-lg my-0 py-2.5 px-10">
+            <p className="text-putih text-sm">Ajukan Sewa</p>
+          </div>
+        </Link>
       </div>
     </div>
   );
