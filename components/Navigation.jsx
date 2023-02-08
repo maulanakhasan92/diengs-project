@@ -3,8 +3,8 @@ import { BsArrowLeftShort, BsBoxArrowUp, BsBookmark } from 'react-icons/bs';
 
 export default function Navigation() {
   return (
-    <div>
-      <div className="fixed z-30 top-0 right-0 left-0 flex justify-between m-4">
+    <div className="lg:hidden">
+      <div className="fixed z-30 top-0 right-0 left-0 flex justify-between lg:max-w-5xl mx-auto p-4">
         <Link href="HomePage">
           <div className="bg-putih p-0.5 rounded-full opacity-90">
             <BsArrowLeftShort size={29} />
@@ -19,7 +19,7 @@ export default function Navigation() {
           </div>
         </div>
       </div>
-      <div className="fixed z-20 top-0 left-0 right-0 p-4 bg-putih">
+      <div className="fixed z-20 top-0 left-0 right-0 p-4 bg-putih lg:max-w-5xl mx-auto">
         <p className="text-left font-medium pt-1 pl-12">Homstay Langit Senja</p>
       </div>
     </div>
