@@ -7,14 +7,14 @@ export default function OrderPage() {
       <Header />
       <div className="px-4 bg-putih">
         <h3 className="text-lg font-semibold mt-2 mb-4">Detail Pemesanan</h3>
-        <div className="my-6 flex">
+        <div className="my-8 flex">
           <div className="w-16 h-16 lg:w-40 lg:h-40 rounded-lg bg-[url('https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80')] bg-cover" />
           <div className="ml-4 pt-2">
             <p className="text-md font-bold">Homestay Langit Senja</p>
             <p className="text-sm font-medium text-abu2">Patak Banteng, Dieng, Kab Wonosobo</p>
           </div>
         </div>
-        <div className="flex justify-between py-4 border-b-[1px] border-abu2 border-dashed">
+        <div className="flex justify-between pb-4 border-b-[1px] border-abu2 border-dashed">
           <div>
             <p className="text-sm font-bold">Check-in</p>
             <p className="text-xs font-semibold">Sel, 31 Jan 2023</p>
